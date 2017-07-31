@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		694991271F2F2ED400EE5F8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 694991261F2F2ED400EE5F8B /* main.m */; };
+		6949912A1F2F2ED400EE5F8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 694991291F2F2ED400EE5F8B /* AppDelegate.m */; };
+		6949912D1F2F2ED400EE5F8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6949912C1F2F2ED400EE5F8B /* ViewController.m */; };
+		694991301F2F2ED400EE5F8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6949912E1F2F2ED400EE5F8B /* Main.storyboard */; };
+		694991321F2F2ED400EE5F8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 694991311F2F2ED400EE5F8B /* Assets.xcassets */; };
+		694991351F2F2ED400EE5F8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 694991331F2F2ED400EE5F8B /* LaunchScreen.storyboard */; };
+		694991401F2F2ED400EE5F8B /* NNValidationViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6949913F1F2F2ED400EE5F8B /* NNValidationViewTests.m */; };
+		6949914B1F2F2ED400EE5F8B /* NNValidationViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6949914A1F2F2ED400EE5F8B /* NNValidationViewUITests.m */; };
+		6949915B1F2F2F0600EE5F8B /* NNValidationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6949915A1F2F2F0600EE5F8B /* NNValidationView.m */; };
+		694991621F2F310400EE5F8B /* NNTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694991601F2F310400EE5F8B /* NNTestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6949913C1F2F2ED400EE5F8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6949911A1F2F2ED400EE5F8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 694991211F2F2ED400EE5F8B;
+			remoteInfo = NNValidationView;
+		};
+		694991471F2F2ED400EE5F8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6949911A1F2F2ED400EE5F8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 694991211F2F2ED400EE5F8B;
+			remoteInfo = NNValidationView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		694991221F2F2ED400EE5F8B /* NNValidationView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NNValidationView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		694991261F2F2ED400EE5F8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		694991281F2F2ED400EE5F8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		694991291F2F2ED400EE5F8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6949912B1F2F2ED400EE5F8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6949912C1F2F2ED400EE5F8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6949912F1F2F2ED400EE5F8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		694991311F2F2ED400EE5F8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		694991341F2F2ED400EE5F8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		694991361F2F2ED400EE5F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6949913B1F2F2ED400EE5F8B /* NNValidationViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNValidationViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6949913F1F2F2ED400EE5F8B /* NNValidationViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNValidationViewTests.m; sourceTree = "<group>"; };
+		694991411F2F2ED400EE5F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		694991461F2F2ED400EE5F8B /* NNValidationViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNValidationViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6949914A1F2F2ED400EE5F8B /* NNValidationViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNValidationViewUITests.m; sourceTree = "<group>"; };
+		6949914C1F2F2ED400EE5F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		694991591F2F2F0600EE5F8B /* NNValidationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNValidationView.h; sourceTree = "<group>"; };
+		6949915A1F2F2F0600EE5F8B /* NNValidationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNValidationView.m; sourceTree = "<group>"; };
+		6949915F1F2F310400EE5F8B /* NNTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNTestViewController.h; sourceTree = "<group>"; };
+		694991601F2F310400EE5F8B /* NNTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNTestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6949911F1F2F2ED400EE5F8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		694991381F2F2ED400EE5F8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		694991431F2F2ED400EE5F8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		694991191F2F2ED400EE5F8B = {
+			isa = PBXGroup;
+			children = (
+				694991241F2F2ED400EE5F8B /* NNValidationView */,
+				6949913E1F2F2ED400EE5F8B /* NNValidationViewTests */,
+				694991491F2F2ED400EE5F8B /* NNValidationViewUITests */,
+				694991231F2F2ED400EE5F8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		694991231F2F2ED400EE5F8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				694991221F2F2ED400EE5F8B /* NNValidationView.app */,
+				6949913B1F2F2ED400EE5F8B /* NNValidationViewTests.xctest */,
+				694991461F2F2ED400EE5F8B /* NNValidationViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		694991241F2F2ED400EE5F8B /* NNValidationView */ = {
+			isa = PBXGroup;
+			children = (
+				694991581F2F2EE800EE5F8B /* NNValidationView */,
+				694991281F2F2ED400EE5F8B /* AppDelegate.h */,
+				694991291F2F2ED400EE5F8B /* AppDelegate.m */,
+				6949912B1F2F2ED400EE5F8B /* ViewController.h */,
+				6949912C1F2F2ED400EE5F8B /* ViewController.m */,
+				6949915F1F2F310400EE5F8B /* NNTestViewController.h */,
+				694991601F2F310400EE5F8B /* NNTestViewController.m */,
+				6949912E1F2F2ED400EE5F8B /* Main.storyboard */,
+				694991311F2F2ED400EE5F8B /* Assets.xcassets */,
+				694991331F2F2ED400EE5F8B /* LaunchScreen.storyboard */,
+				694991361F2F2ED400EE5F8B /* Info.plist */,
+				694991251F2F2ED400EE5F8B /* Supporting Files */,
+			);
+			path = NNValidationView;
+			sourceTree = "<group>";
+		};
+		694991251F2F2ED400EE5F8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				694991261F2F2ED400EE5F8B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6949913E1F2F2ED400EE5F8B /* NNValidationViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				6949913F1F2F2ED400EE5F8B /* NNValidationViewTests.m */,
+				694991411F2F2ED400EE5F8B /* Info.plist */,
+			);
+			path = NNValidationViewTests;
+			sourceTree = "<group>";
+		};
+		694991491F2F2ED400EE5F8B /* NNValidationViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6949914A1F2F2ED400EE5F8B /* NNValidationViewUITests.m */,
+				6949914C1F2F2ED400EE5F8B /* Info.plist */,
+			);
+			path = NNValidationViewUITests;
+			sourceTree = "<group>";
+		};
+		694991581F2F2EE800EE5F8B /* NNValidationView */ = {
+			isa = PBXGroup;
+			children = (
+				694991591F2F2F0600EE5F8B /* NNValidationView.h */,
+				6949915A1F2F2F0600EE5F8B /* NNValidationView.m */,
+			);
+			path = NNValidationView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		694991211F2F2ED400EE5F8B /* NNValidationView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6949914F1F2F2ED400EE5F8B /* Build configuration list for PBXNativeTarget "NNValidationView" */;
+			buildPhases = (
+				6949911E1F2F2ED400EE5F8B /* Sources */,
+				6949911F1F2F2ED400EE5F8B /* Frameworks */,
+				694991201F2F2ED400EE5F8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NNValidationView;
+			productName = NNValidationView;
+			productReference = 694991221F2F2ED400EE5F8B /* NNValidationView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6949913A1F2F2ED400EE5F8B /* NNValidationViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 694991521F2F2ED400EE5F8B /* Build configuration list for PBXNativeTarget "NNValidationViewTests" */;
+			buildPhases = (
+				694991371F2F2ED400EE5F8B /* Sources */,
+				694991381F2F2ED400EE5F8B /* Frameworks */,
+				694991391F2F2ED400EE5F8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6949913D1F2F2ED400EE5F8B /* PBXTargetDependency */,
+			);
+			name = NNValidationViewTests;
+			productName = NNValidationViewTests;
+			productReference = 6949913B1F2F2ED400EE5F8B /* NNValidationViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		694991451F2F2ED400EE5F8B /* NNValidationViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 694991551F2F2ED400EE5F8B /* Build configuration list for PBXNativeTarget "NNValidationViewUITests" */;
+			buildPhases = (
+				694991421F2F2ED400EE5F8B /* Sources */,
+				694991431F2F2ED400EE5F8B /* Frameworks */,
+				694991441F2F2ED400EE5F8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				694991481F2F2ED400EE5F8B /* PBXTargetDependency */,
+			);
+			name = NNValidationViewUITests;
+			productName = NNValidationViewUITests;
+			productReference = 694991461F2F2ED400EE5F8B /* NNValidationViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6949911A1F2F2ED400EE5F8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = zhongNing;
+				TargetAttributes = {
+					694991211F2F2ED400EE5F8B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					6949913A1F2F2ED400EE5F8B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 694991211F2F2ED400EE5F8B;
+					};
+					694991451F2F2ED400EE5F8B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 694991211F2F2ED400EE5F8B;
+					};
+				};
+			};
+			buildConfigurationList = 6949911D1F2F2ED400EE5F8B /* Build configuration list for PBXProject "NNValidationView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 694991191F2F2ED400EE5F8B;
+			productRefGroup = 694991231F2F2ED400EE5F8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				694991211F2F2ED400EE5F8B /* NNValidationView */,
+				6949913A1F2F2ED400EE5F8B /* NNValidationViewTests */,
+				694991451F2F2ED400EE5F8B /* NNValidationViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		694991201F2F2ED400EE5F8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				694991351F2F2ED400EE5F8B /* LaunchScreen.storyboard in Resources */,
+				694991321F2F2ED400EE5F8B /* Assets.xcassets in Resources */,
+				694991301F2F2ED400EE5F8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		694991391F2F2ED400EE5F8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		694991441F2F2ED400EE5F8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6949911E1F2F2ED400EE5F8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6949912D1F2F2ED400EE5F8B /* ViewController.m in Sources */,
+				6949912A1F2F2ED400EE5F8B /* AppDelegate.m in Sources */,
+				694991621F2F310400EE5F8B /* NNTestViewController.m in Sources */,
+				694991271F2F2ED400EE5F8B /* main.m in Sources */,
+				6949915B1F2F2F0600EE5F8B /* NNValidationView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		694991371F2F2ED400EE5F8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				694991401F2F2ED400EE5F8B /* NNValidationViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		694991421F2F2ED400EE5F8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6949914B1F2F2ED400EE5F8B /* NNValidationViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6949913D1F2F2ED400EE5F8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 694991211F2F2ED400EE5F8B /* NNValidationView */;
+			targetProxy = 6949913C1F2F2ED400EE5F8B /* PBXContainerItemProxy */;
+		};
+		694991481F2F2ED400EE5F8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 694991211F2F2ED400EE5F8B /* NNValidationView */;
+			targetProxy = 694991471F2F2ED400EE5F8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6949912E1F2F2ED400EE5F8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6949912F1F2F2ED400EE5F8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		694991331F2F2ED400EE5F8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				694991341F2F2ED400EE5F8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6949914D1F2F2ED400EE5F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6949914E1F2F2ED400EE5F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		694991501F2F2ED400EE5F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NNValidationView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongNing.NNValidationView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		694991511F2F2ED400EE5F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NNValidationView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongNing.NNValidationView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		694991531F2F2ED400EE5F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NNValidationViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongNing.NNValidationViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NNValidationView.app/NNValidationView";
+			};
+			name = Debug;
+		};
+		694991541F2F2ED400EE5F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NNValidationViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongNing.NNValidationViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NNValidationView.app/NNValidationView";
+			};
+			name = Release;
+		};
+		694991561F2F2ED400EE5F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NNValidationViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongNing.NNValidationViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NNValidationView;
+			};
+			name = Debug;
+		};
+		694991571F2F2ED400EE5F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NNValidationViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhongNing.NNValidationViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NNValidationView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6949911D1F2F2ED400EE5F8B /* Build configuration list for PBXProject "NNValidationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6949914D1F2F2ED400EE5F8B /* Debug */,
+				6949914E1F2F2ED400EE5F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6949914F1F2F2ED400EE5F8B /* Build configuration list for PBXNativeTarget "NNValidationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				694991501F2F2ED400EE5F8B /* Debug */,
+				694991511F2F2ED400EE5F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		694991521F2F2ED400EE5F8B /* Build configuration list for PBXNativeTarget "NNValidationViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				694991531F2F2ED400EE5F8B /* Debug */,
+				694991541F2F2ED400EE5F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		694991551F2F2ED400EE5F8B /* Build configuration list for PBXNativeTarget "NNValidationViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				694991561F2F2ED400EE5F8B /* Debug */,
+				694991571F2F2ED400EE5F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6949911A1F2F2ED400EE5F8B /* Project object */;
+}
