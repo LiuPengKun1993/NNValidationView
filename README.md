@@ -25,3 +25,8 @@
 ![效果图](https://github.com/liuzhongning/NNValidationView/blob/master/sampleImage/111.gif)
 
 ![打印结果](https://github.com/liuzhongning/NNValidationView/blob/master/sampleImage/Snip20170731_14.png)
+
+
+### License
+
+This repositorie is released under the under [MIT License](https://github.com/liuzhongning/NNValidationView/blob/master/LICENSE)
